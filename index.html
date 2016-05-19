@@ -1,57 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title> Common Router - Hitron Technologies </title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+<!DOCTYPE html><html lang = "en"><head><meta charset = "utf-8"><title>
+        Common Router -
+    Hitron Technologies</ title><meta name = "viewport" content =
+                                     "width=device-width, initial-scale=1.0"><
+        meta name = "description" content = ""><
+        meta name = "author" content = "">
 
-<script type="text/javascript" language="javascript">
+    <script type = "text/javascript" language = "javascript">
 
-function setCookie(name,val,hours,path)
-{
-var name = escape(name);
-var val = escape(val);
-var expires  = new Date();
-expires.setTime(expires.getTime() + hours*3600000);
-path = path == "" ? "":";path=" + path;
-_expires = (typeof hours) == "string" ? "" : ";expires=" +expires.toUTCString();
-document.cookie = name + "=" + val + _expires + path;
+        function setCookie(name, val, hours, path) {
+  var name = escape(name);
+  var val = escape(val);
+  var expires = new Date();
+  expires.setTime(expires.getTime() + hours * 3600000);
+  path = path == "" ? "" : ";path=" + path;
+  _expires =
+      (typeof hours) == "string" ? "" : ";expires=" + expires.toUTCString();
+  document.cookie = name + "=" + val + _expires + path;
 }
 /* getCookie*/
-function getCookieValue(name)
-{
-var name = escape(name);
-var allcookies = document.cookie;
-name += "=";
-var pos = allcookies.indexOf(name);
-if(pos != -1)
-{
-var start = pos + name.length;
-var end = allcookies.indexOf(";", start);
-if(end == -1)
-{
-end = allcookies.length;
-}
-var val = allcookies.substring(start, end);
-return unescape(val);
-}
-else
-{
-return "";
-}
+function getCookieValue(name) {
+  var name = escape(name);
+  var allcookies = document.cookie;
+  name += "=";
+  var pos = allcookies.indexOf(name);
+  if (pos != -1) {
+    var start = pos + name.length;
+    var end = allcookies.indexOf(";", start);
+    if (end == -1) {
+      end = allcookies.length;
+    }
+    var val = allcookies.substring(start, end);
+    return unescape(val);
+  } else {
+    return "";
+  }
 }
 var cookie_model_name = getCookieValue("modelname");
 var cur_model_name = getCookieValue("cur_modelname");
 if (cur_model_name != cookie_model_name) {
-setCookie("modelname", cur_model_name, 24*30, "/");
-window.location.reload(true);
+  setCookie("modelname", cur_model_name, 24 * 30, "/");
+  window.location.reload(true);
 }
-setCookie("isEdit", "0", 24*30, "/");
-setCookie("isEdit1", "0", 24*30, "/");
-setCookie("isEdit2", "0", 24*30, "/");
-setCookie("isEdit3", "0", 24*30, "/");
+setCookie("isEdit", "0", 24 * 30, "/");
+setCookie("isEdit1", "0", 24 * 30, "/");
+setCookie("isEdit2", "0", 24 * 30, "/");
+setCookie("isEdit3", "0", 24 * 30, "/");
 
 </script>
 
@@ -110,123 +103,116 @@ setCookie("isEdit3", "0", 24*30, "/");
 <li class="dropdown">
 <a id="titleid" data-toggle="dropdown" class="dropdown-toggle" href="index.html#"  title=''>
 <i class="icon-user icon-white"></i>&nbsp;
-<span id="currentUser" limit="8"></span>
-<b class="caret"></b>
-</a>
-<ul class="dropdown-menu">
-<li>
-<a href="index.html#" id="btnLogout">
-<span class="langTag" id="Logout"></span>
-</a>
-</li>
-</ul>
-</li>
-<li class="htx_slim_devider divider-vertical"></li>
-<li class="dropdown" id="li_battery">
+<span id = "currentUser" limit = "8"></ span><b class = "caret"></ b></ a><
+    ul class = "dropdown-menu"><li><a href = "index.html#" id = "btnLogout"><
+    span class = "langTag" id = "Logout"></ span></ a></ li></ ul></ li><
+    li class = "htx_slim_devider divider-vertical"></ li><
+    li class = "dropdown" id = "li_battery">
 
-</li>
-</ul>
-</div><!--/.nav-collapse -->
-</div>
-</div>
-</div>
-<!--End of Navi bar-->
-<div class="container">
-<header class="subhead jumbotron" id="menuTitle">
-</header>
-<!--maincontent starts -->
-<div class="row" style="height:auto !important;height:350px;min-height:350px;">
-<div id="maincontent">
-</div>
-</div>
-<!--maincontent end -->
-</div>
-<!--Container end -->
-<div class="footer">
-<center>
-<p id="copyright"></p>
-</center>
-</div>
-</div>
-<!--End of mainApp>
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="lib/json2.js"></script>
-<script type="text/javascript" src="lib/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="lib/jquery.hitronext.js"></script>
-<script type="text/javascript" src="lib/underscore.min.js"></script>
-<script type="text/javascript" src="lib/backbone.js"></script>
-<script type="text/javascript" src="lib/bootstrap.min.js"></script>
-<script type="text/javascript" src="extjs4/ext-all.js"></script>
-<script type="text/javascript" src="lib/dict.js"></script>
-<script type="text/javascript" src="lib/hitronSync.js"></script>
-<script type="text/javascript" src="js/mainApp.js"></script>
+    </ li></ ul></ div><!-- /.nav - collapse--></ div></ div></ div><
+        !--End of Navi bar--><div class = "container"><
+        header class = "subhead jumbotron" id = "menuTitle"></ header><
+        !--maincontent starts--><
+        div class = "row" style =
+            "height:auto !important;height:350px;min-height:350px;"><
+        div id = "maincontent"></ div></ div><!--maincontent end--></ div><
+        !--Container end--><div class = "footer"><center><p id = "copyright"><
+        / p></ center></ div></ div><!--End of mainApp><
+        !--Le javascript == == == == == == == == == == == == == == == == == ==
+        == == == == == == ==
+        --><!--Placed at the end of the document so the pages load faster--><
+        script type = "text/javascript" src = "lib/json2.js"></ script><
+        script type = "text/javascript" src = "lib/jquery-1.8.3.min.js"><
+        / script><script type = "text/javascript" src =
+                      "lib/jquery.hitronext.js"></ script><
+        script type = "text/javascript" src = "lib/underscore.min.js"><
+        / script><script type = "text/javascript" src = "lib/backbone.js"><
+        / script><script type = "text/javascript" src = "lib/bootstrap.min.js"><
+        / script><script type = "text/javascript" src = "extjs4/ext-all.js"><
+        / script><script type = "text/javascript" src = "lib/dict.js"><
+        / script><script type = "text/javascript" src = "lib/hitronSync.js"><
+        / script><script type = "text/javascript" src = "js/mainApp.js"></
+                                                                         script>
 
-<!--Templates-->
-<script type="text/template" id="menuitem-template">
-<a href="index.html#<%= hyperLink %>/m/<%= index %>/s/<%= subIndex %>" >
-<b><% print($.tag_get('Menu_'+langTagId)); %></b>
-</a>
-</script>
+    <!--Templates--><script type = "text/template" id = "menuitem-template"><
+        a href =
+            "index.html#<%= hyperLink %>/m/<%= index %>/s/<%= subIndex %>"><b> <
+    % print($.tag_get('Menu_' + langTagId));
+% > </ b></ a></ script>
 
-<script type="text/template" id="head-template">
-<h1><% print($.tag_get('Title_'+langTagId)); %></h1>
-<p class="lead"><% print($.tag_get('Subtitle_'+langTagId)); %></p>
-<div class="subnav">
-<ul class="nav nav-pills" id="submenus"></ul>
-</div>
-</script>
+    <script type = "text/template" id = "head-template"><h1> <
+    % print($.tag_get('Title_' + langTagId));
+% > </ h1><p class = "lead"> < % print($.tag_get('Subtitle_' + langTagId));
+% > </ p><div class = "subnav"><ul class = "nav nav-pills" id = "submenus"><
+        / ul></ div></ script>
 
-<script type="text/template" id="submenu-template">
-<a href="index.html#<%= hyperLink %>/m/<%= mainIndex%>/s/<%= index %>" ><% print($.tag_get(langTagId)); %></a>
-</script>
+    <script type = "text/template" id = "submenu-template"><
+        a href =
+            "index.html#<%= hyperLink %>/m/<%= mainIndex%>/s/<%= index %>"> <
+    % print($.tag_get(langTagId));
+% > </ a></ script>
 
-<script type="text/template" id="battery-template">
-<%if(battCharge!='N/A'){%>
-<a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
-<img src="img/battery/battery<%if(battCharge=='YES')print('_charge')%>_<%
-if(battRemain>85) {
-print('100');
-}else if(battRemain>71){
-print('85');
-}else if(battRemain>57){
-print('71');
-}else if(battRemain>43){
-print('57');
-}else if(battRemain>28){
-print('43');
-}else if(battRemain>15){
-print('28');
-}else if(battRemain>5){
-print('15');
-}else {
-print('0');
+    <script type = "text/template" id = "battery-template"> <
+    % if (battCharge != 'N/A') {
+  % > <a data - toggle = "dropdown" class = "dropdown-toggle" href =
+           "index.html#"> < img src =
+      "img/battery/battery<%if(battCharge=='YES')print('_charge')%>_<%
+      if (battRemain > 85) {
+    print('100');
+  }
+  else if (battRemain > 71) {
+    print('85');
+  }
+  else if (battRemain > 57) {
+    print('71');
+  }
+  else if (battRemain > 43) {
+    print('57');
+  }
+  else if (battRemain > 28) {
+    print('43');
+  }
+  else if (battRemain > 15) {
+    print('28');
+  }
+  else if (battRemain > 5) {
+    print('15');
+  }
+  else {
+    print('0');
+  }
+  % >.png " style=" width : 20px;
+height:
+  20px;
+  ">
+      < b class
+      = "caret" > </ b></ a><ul class = "dropdown-menu"><li><a> AC Power
+        : < % if (battCharge == 'YES') {
+    print('Connected');
+  }
+  else {print('Disconnected')} % > </ a></ li><li><a> Battery Remaining
+                                       : <%= battRemain %> %
+                                         </ a></ li><li><a> Status
+                                         : <
+                                           % if (battCharge == 'YES') {
+    if (battRemain < 85) {
+      print('Charging');
+    } else {
+      print('Maintaining');
+    }
+  }
+  else {print('Discharging')} % > </ a></ li><li><a> Power Saving Mode
+      : <%= battPsm %></ a></ li></ ul> < %
 }
-%>.png" style="width:20px;height:20px;">
-<b class="caret"></b>
-</a>
-<ul class="dropdown-menu">
-<li>
-<a>AC Power:<%if(battCharge=='YES'){print('Connected');}else{print('Disconnected')} %></a>
-</li>
-<li>
-<a>Battery Remaining:<%=battRemain %>%</a>
-</li>
-<li><a>Status:<%if(battCharge=='YES'){if(battRemain<85){print('Charging');} else {print('Maintaining');}}else{print('Discharging')} %></a></li>
-<li><a>Power Saving Mode: <%=battPsm %></a></li>
-</ul>
-<%}%>
-</script>
-<!--End of Templates-->
-<script type="text/javascript" src="lib/ie6.min.js"></script>
-</body>
-</html>
-<script type="text/javascript" language="javascript">
-var date,year;
+% > </ script><!--End of Templates--><script type = "text/javascript" src =
+                                          "lib/ie6.min.js"></ script></ body><
+        / html><script type = "text/javascript" language = "javascript">
+        var date,
+    year;
 date = new Date();
 year = date.getFullYear();
-$(document).ready(function(){
-$("#copyright").html("&copy; " + year + " " + $.tag_get('Copyright'));
-});
+$(document)
+    .ready(function() {
+      $("#copyright").html("&copy; " + year + " " + $.tag_get('Copyright'));
+    });
 </script>

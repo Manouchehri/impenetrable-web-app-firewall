@@ -3,195 +3,237 @@ htx-bootstrap.css
 extend some classes based on bootstrap.
 Any modified or new css style should be added in this file
 */
-.btn-disabled{
-color:grey;
+.btn - disabled {
+color:
+  grey;
 }
-.input-tac{
-width:30px;
-text-align:center;
+.input - tac {
+width:
+  30px;
+  text - align : center;
 }
-.edit-table{
-width: 100%;
-text-align: center;
+.edit - table {
+width:
+  100 % ;
+  text - align : center;
 }
-.edit-table tr{
-height: 30px;
+.edit - table tr {
+height:
+  30px;
 }
-.table td .edit{
-display: none;
+.table td.edit {
+display:
+  none;
 }
-.table td.editing .edit{
-display: block;
+.table td.editing.edit {
+display:
+  block;
 }
-.table td.editing .display{
-display: none;
+.table td.editing.display {
+display:
+  none;
 }
-.btn-timebar {
-padding-right:3px;
-padding-left:20px
+.btn - timebar {
+  padding - right : 3px;
+  padding - left : 20px
 }
-.fake-btn-group {
-float: left;
-margin-left: -1px;
--webkit-border-radius: 0;
--moz-border-radius: 0;
-border-radius: 0;
+.fake - btn - group {
+  float : left;
+  margin - left : -1px;
+  -webkit - border - radius : 0;
+  -moz - border - radius : 0;
+  border - radius : 0;
 }
-.fake-btn-group-first {
--webkit-border-top-left-radius: 4px;
-border-top-left-radius: 4px;
--webkit-border-bottom-left-radius: 4px;
-border-bottom-left-radius: 4px;
--moz-border-radius-topleft: 4px;
--moz-border-radius-bottomleft: 4px;
+.fake - btn - group - first {
+  -webkit - border - top - left - radius : 4px;
+  border - top - left - radius : 4px;
+  -webkit - border - bottom - left - radius : 4px;
+  border - bottom - left - radius : 4px;
+  -moz - border - radius - topleft : 4px;
+  -moz - border - radius - bottomleft : 4px;
 }
-.fake-btn-group-last {
--webkit-border-top-right-radius: 4px;
-border-top-right-radius: 4px;
--webkit-border-bottom-right-radius: 4px;
-border-bottom-right-radius: 4px;
--moz-border-radius-topright: 4px;
--moz-border-radius-bottomright: 4px;
-
+.fake - btn - group - last {
+  -webkit - border - top - right - radius : 4px;
+  border - top - right - radius : 4px;
+  -webkit - border - bottom - right - radius : 4px;
+  border - bottom - right - radius : 4px;
+  -moz - border - radius - topright : 4px;
+  -moz - border - radius - bottomright : 4px;
 }
 .htx_parental_item {
-background-color: #f5f5f5;
-margin-bottom:20px;
-border: 1px solid #eee;
-border: 1px solid rgba(0, 0, 0, 0.05);
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
--webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
--moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  background - color : #f5f5f5;
+  margin - bottom : 20px;
+border:
+  1px solid #eee;
+border:
+  1px solid rgba(0, 0, 0, 0.05);
+  -webkit - border - radius : 4px;
+  -moz - border - radius : 4px;
+  border - radius : 4px;
+  -webkit - box - shadow : inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz - box - shadow : inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box - shadow : inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 .htx_parental_header {
-padding: 9px 15px;
-border-bottom: 1px solid #e5e5e5;
-
+padding:
+  9px 15px;
+  border - bottom : 1px solid #e5e5e5;
 }
 
 .htx_parental_body {
 
-padding: 9px 15px;
-height: 350px;
-cursor: pointer;
+padding:
+  9px 15px;
+height:
+  350px;
+cursor:
+  pointer;
 }
 /*From .progress .progress-danger*/
 .htx_schedule {
-height: 18px;
-margin-bottom: 18px;
-overflow: hidden;
-background-color: #5eb95e;
-background-image: -moz-linear-gradient(top, #62c462, #57a957);
-background-image: -ms-linear-gradient(top, #62c462, #57a957);
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#57a957));
-background-image: -webkit-linear-gradient(top, #62c462, #57a957);
-background-image: -o-linear-gradient(top, #62c462, #57a957);
-background-image: linear-gradient(top, #62c462, #57a957);
-background-repeat: repeat-x;
-filter: progid:dximagetransform.microsoft.gradient(startColorstr='#62c462', endColorstr='#57a957', GradientType=0);
+height:
+  18px;
+  margin - bottom : 18px;
+overflow:
+  hidden;
+  background - color : #5eb95e;
+  background - image : -moz - linear - gradient(top, #62c462, #57a957);
+  background - image : -ms - linear - gradient(top, #62c462, #57a957);
+  background - image : -webkit - gradient(linear, 0 0, 0 100 %, from(#62c462),
+                                          to(#57a957));
+  background - image : -webkit - linear - gradient(top, #62c462, #57a957);
+  background - image : -o - linear - gradient(top, #62c462, #57a957);
+  background - image : linear - gradient(top, #62c462, #57a957);
+  background - repeat : repeat - x;
+filter:
+progid:
+  dximagetransform.microsoft.gradient(
+      startColorstr = '#62c462', endColorstr = '#57a957', GradientType = 0);
 
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
-filter: progid:dximagetransform.microsoft.gradient(startColorstr='#62c462', endColorstr='#57a957', GradientType=0);
--webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
--moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--ms-box-sizing: border-box;
-box-sizing: border-box;
--webkit-transition: width 0.6s ease;
--moz-transition: width 0.6s ease;
--ms-transition: width 0.6s ease;
--o-transition: width 0.6s ease;
-transition: width 0.6s ease;
+  -webkit - border - radius : 4px;
+  -moz - border - radius : 4px;
+  border - radius : 4px;
+filter:
+progid:
+  dximagetransform.microsoft.gradient(
+      startColorstr = '#62c462', endColorstr = '#57a957', GradientType = 0);
+  -webkit - box - shadow : inset 0 - 1px 0 rgba(0, 0, 0, 0.15);
+  -moz - box - shadow : inset 0 - 1px 0 rgba(0, 0, 0, 0.15);
+  box - shadow : inset 0 - 1px 0 rgba(0, 0, 0, 0.15);
+  -webkit - box - sizing : border - box;
+  -moz - box - sizing : border - box;
+  -ms - box - sizing : border - box;
+  box - sizing : border - box;
+  -webkit - transition : width 0.6s ease;
+  -moz - transition : width 0.6s ease;
+  -ms - transition : width 0.6s ease;
+  -o - transition : width 0.6s ease;
+transition:
+  width 0.6s ease;
 }
 /*.progress-success .bar */
-.htx_schedule .allow {
-width: 0;
-height: 18px;
-font-size: 12px;
-color: #ffffff;
-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-background-color: #5eb95e;
-background-image: -moz-linear-gradient(top, #62c462, #57a957);
-background-image: -ms-linear-gradient(top, #62c462, #57a957);
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#57a957));
-background-image: -webkit-linear-gradient(top, #62c462, #57a957);
-background-image: -o-linear-gradient(top, #62c462, #57a957);
-background-image: linear-gradient(top, #62c462, #57a957);
-background-repeat: repeat-x;
-filter: progid:dximagetransform.microsoft.gradient(startColorstr='#62c462', endColorstr='#57a957', GradientType=0);
+.htx_schedule.allow {
+width:
+  0;
+height:
+  18px;
+  font - size : 12px;
+color:
+  #ffffff;
+  text - shadow : 0 - 1px 0 rgba(0, 0, 0, 0.25);
+  background - color : #5eb95e;
+  background - image : -moz - linear - gradient(top, #62c462, #57a957);
+  background - image : -ms - linear - gradient(top, #62c462, #57a957);
+  background - image : -webkit - gradient(linear, 0 0, 0 100 %, from(#62c462),
+                                          to(#57a957));
+  background - image : -webkit - linear - gradient(top, #62c462, #57a957);
+  background - image : -o - linear - gradient(top, #62c462, #57a957);
+  background - image : linear - gradient(top, #62c462, #57a957);
+  background - repeat : repeat - x;
+filter:
+progid:
+  dximagetransform.microsoft.gradient(
+      startColorstr = '#62c462', endColorstr = '#57a957', GradientType = 0);
 
--webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
--moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--ms-box-sizing: border-box;
-box-sizing: border-box;
--webkit-transition: width 0.6s ease;
--moz-transition: width 0.6s ease;
--ms-transition: width 0.6s ease;
--o-transition: width 0.6s ease;
-transition: width 0.6s ease;
+  -webkit - box - shadow : inset 0 - 1px 0 rgba(0, 0, 0, 0.15);
+  -moz - box - shadow : inset 0 - 1px 0 rgba(0, 0, 0, 0.15);
+  box - shadow : inset 0 - 1px 0 rgba(0, 0, 0, 0.15);
+  -webkit - box - sizing : border - box;
+  -moz - box - sizing : border - box;
+  -ms - box - sizing : border - box;
+  box - sizing : border - box;
+  -webkit - transition : width 0.6s ease;
+  -moz - transition : width 0.6s ease;
+  -ms - transition : width 0.6s ease;
+  -o - transition : width 0.6s ease;
+transition:
+  width 0.6s ease;
 }
-.htx_schedule .block {
-width: 0;
-height: 18px;
-font-size: 12px;
-color: #ffffff;
-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-background-color: #dd514c;
-background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
-background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#c43c35));
-background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
-background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
-background-image: linear-gradient(top, #ee5f5b, #c43c35);
-background-repeat: repeat-x;
-filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#c43c35', GradientType=0);
--webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
--moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--ms-box-sizing: border-box;
-box-sizing: border-box;
--webkit-transition: width 0.6s ease;
--moz-transition: width 0.6s ease;
--ms-transition: width 0.6s ease;
--o-transition: width 0.6s ease;
-transition: width 0.6s ease;
+.htx_schedule.block {
+width:
+  0;
+height:
+  18px;
+  font - size : 12px;
+color:
+  #ffffff;
+  text - shadow : 0 - 1px 0 rgba(0, 0, 0, 0.25);
+  background - color : #dd514c;
+  background - image : -moz - linear - gradient(top, #ee5f5b, #c43c35);
+  background - image : -ms - linear - gradient(top, #ee5f5b, #c43c35);
+  background - image : -webkit - gradient(linear, 0 0, 0 100 %, from(#ee5f5b),
+                                          to(#c43c35));
+  background - image : -webkit - linear - gradient(top, #ee5f5b, #c43c35);
+  background - image : -o - linear - gradient(top, #ee5f5b, #c43c35);
+  background - image : linear - gradient(top, #ee5f5b, #c43c35);
+  background - repeat : repeat - x;
+filter:
+progid:
+  dximagetransform.microsoft.gradient(
+      startColorstr = '#ee5f5b', endColorstr = '#c43c35', GradientType = 0);
+  -webkit - box - shadow : inset 0 - 1px 0 rgba(0, 0, 0, 0.15);
+  -moz - box - shadow : inset 0 - 1px 0 rgba(0, 0, 0, 0.15);
+  box - shadow : inset 0 - 1px 0 rgba(0, 0, 0, 0.15);
+  -webkit - box - sizing : border - box;
+  -moz - box - sizing : border - box;
+  -ms - box - sizing : border - box;
+  box - sizing : border - box;
+  -webkit - transition : width 0.6s ease;
+  -moz - transition : width 0.6s ease;
+  -ms - transition : width 0.6s ease;
+  -o - transition : width 0.6s ease;
+transition:
+  width 0.6s ease;
 }
 
 .htx_slim_devider {
-margin: 0 1px !important;
+margin:
+  0 1px !important;
 }
 /* Scroll style for webkit browsers */
-::-webkit-scrollbar {
-width: 8px;
+:: - webkit - scrollbar {
+width:
+  8px;
 }
 /* Track */
-::-webkit-scrollbar-track {
--webkit-box-shadow: inset 0 0 0 #e5e5e5;
+:: - webkit - scrollbar - track {
+  -webkit - box - shadow : inset 0 0 0 #e5e5e5;
 }
 /* Handle */
-::-webkit-scrollbar-thumb {
--webkit-border-radius: 2px;
-background: #e5e5e5;
--webkit-box-shadow: inset 0 0 1px grey;
+:: - webkit - scrollbar - thumb {
+  -webkit - border - radius : 2px;
+background:
+  #e5e5e5;
+  -webkit - box - shadow : inset 0 0 1px grey;
 }
-::-webkit-scrollbar-thumb:window-inactive {
-background: #e5e5e5;
+:: - webkit - scrollbar - thumb : window - inactive {
+background:
+  #e5e5e5;
 }
 
 .nav > li > a {
-display: block;
-font-size: 16px;
+display:
+  block;
+  font - size : 16px;
 }
